@@ -11,3 +11,6 @@ Our motivation also stems largely from modelling various machine learning proble
 PROPOSED STEPS: Since our target variable is a two-class variable, we will be presenting this task as a Classification problem. For creating the feature selection model, we propose on exploring two main methodologies:
 Stepwise regression: In this method, we take all the features as candidate features. They are checked over each iteration to observe their influence on the target variable. If the feature is found to be of a significance lower than our tolerance level, it will not be selected further for creating the model.
 Tree-based selection: Here, we borrow the concepts from Decision trees (e.g. Random Forest Trees). In tree-based feature selector, we split and traverse at each node based on the information gain given by a feature. The feature which gives maximum information gain is picked as the next branch in our path towards the final model.
+
+
+If github is unable to render a Jupyter notebook, copy the link of the notebook and enter into the nbviewer: https://nbviewer.jupyter.org/
